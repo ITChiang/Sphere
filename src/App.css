@@ -1,0 +1,98 @@
+body {
+  background-color: black;
+  font-family: monospace,"Gill Sans", sans-serif;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.dropBtn {
+  color: white;
+  font-size: 1.5rem;
+  position: absolute;
+  background-color: transparent;
+  border-color: white;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  padding: 20px;
+  width: 1.5em;
+  top: 40%;
+  left: 5%;
+}
+
+.dropBtn.change {
+  left: 90%;
+}
+
+.Cover {
+  z-index: 3;
+  color: #b3b3b3;
+  background-color: black;
+  position: absolute;
+  width: 100vw;
+}
+
+.main {
+  text-align: center;
+  z-index: 2;
+  height: 100vh;
+  border-style: solid;
+  margin: auto;
+  width: 50%;
+  border: 3px none #949090;
+  top: 18vh;
+  position: relative;
+  line-height: 1.8rem;
+}
+
+#sign {
+  width: 15rem;
+  position: relative;
+  margin: 0px;
+}
+
+.rainBtn {
+  border-top: 3px solid #193975;
+  border-bottom: 3px solid #193975;
+  border-left: none;
+  border-right: none;
+  background-color: transparent;
+  color: #193975;
+  width: 10vw;
+  margin: 30px;
+  position: relative;
+  font-size: 1.5rem;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.rainBtn:hover {
+  background-color: white;
+  font-size: 2rem;
+}
+
+.mainUI {
+  color: white;
+  text-align: center;
+  margin: auto;
+}
+
+#bot_text {
+  position: absolute;
+  bottom: 1%;
+  width: 100vw;
+}
+
+#top_text {
+  position: absolute;
+  top: 3%;
+  width: 100vw;
+}
+
+#bot_text a {
+  color: white;
+}
+/*# sourceMappingURL=App.css.map */
