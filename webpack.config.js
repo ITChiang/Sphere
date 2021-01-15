@@ -21,7 +21,11 @@ module.exports = {
         loader: 'file-loader'
       },
       {
-        test: /\.(png|jpg|gif|ico)$/i,
+        test: /\.md$/,
+        use: "raw-loader"
+      },
+      {
+        test: /\.(png|jpg|gif|ico|eot|svg|ttf|woff|woff2|otf)$/i,
         use: [
           {
             loader: 'url-loader',

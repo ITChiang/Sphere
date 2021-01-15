@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap");
+canvas {
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  opacity: 1;
+}
+
+.canvas_active {
+  opacity: 0;
+  -webkit-transition: opacity 1s ease;
+  transition: opacity 1s ease;
+}
+
+.intro_enterBtn {
+  font-family: 'Source Sans Pro', monospace,"Gill Sans", sans-serif;
+  background-color: transparent;
+  border-top: 1px solid #272727;
+  border-bottom: 1px solid #272727;
+  border-left: none;
+  border-right: none;
+  position: absolute;
+  width: 7vw;
+  height: 6vh;
+  font-size: 1.5rem;
+  color: #272727;
+  top: 80vh;
+  left: 45.5vw;
+  -webkit-transition: 1s;
+  transition: 1s;
+  z-index: 4;
+  opacity: 1;
+}
+
+.intro_enterBtn:hover {
+  font-family: 'Source Sans Pro', monospace,"Gill Sans", sans-serif;
+  width: 5vw;
+  height: 5vw;
+  top: 80vh;
+  left: 46.5vw;
+  z-index: 4;
+}
+
+.intro_enterBtn.canvas_active {
+  border-top: 1px solid #272727;
+  border-bottom: 1px solid #272727;
+  border-left: none;
+  border-right: none;
+  position: absolute;
+  width: 5vw;
+  height: 5vw;
+  top: 80vh;
+  left: 46.5vw;
+  font-size: 1.5rem;
+  color: #272727;
+  -webkit-transition: 1s;
+  transition: 1s;
+  z-index: 4;
+  opacity: 0;
+  -webkit-transition: opacity 1s ease;
+  transition: opacity 1s ease;
+}
+
+.bg_cover {
+  position: absolute;
+  width: 85vw;
+  text-align: center;
+  font-size: 4rem;
+  letter-spacing: 8px;
+  z-index: 5;
+  color: rgba(53, 53, 53, 0.972);
+  opacity: 1;
+  -webkit-transition: opacity 1s ease;
+  transition: opacity 1s ease;
+}
+
+.bg_cover.canvas_active {
+  position: absolute;
+  width: 85vw;
+  text-align: center;
+  font-size: 4rem;
+  letter-spacing: 8px;
+  z-index: 5;
+  color: rgba(53, 53, 53, 0.972);
+  opacity: 0;
+}
+
+.bg_footer {
+  position: absolute;
+  width: 85vw;
+  bottom: 1vh;
+  text-align: center;
+  font-size: 1.5rem;
+  letter-spacing: 8px;
+  z-index: 5;
+  color: rgba(53, 53, 53, 0.972);
+  opacity: 1;
+}
+
+.bg_footer.canvas_active {
+  position: absolute;
+  width: 85vw;
+  bottom: 1vh;
+  text-align: center;
+  font-size: 1.5rem;
+  letter-spacing: 8px;
+  z-index: 5;
+  color: rgba(53, 53, 53, 0.972);
+  opacity: 0;
+}
+/*# sourceMappingURL=background.css.map */

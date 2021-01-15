@@ -1,107 +1,32 @@
-$pBtn: rgb(252, 96, 96);
-@mixin btnColor($color) {
-  background-color: $color;
-  color: aliceblue;
-}
-$pColor: rgb(25, 57, 117);
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
 body{
-  background-color: rgb(0, 0, 0);
-  font-family: monospace,"Gill Sans", sans-serif;
-  overflow-x: hidden;
-  overflow-y: hidden;
+  background-color:#fbfbfb;
+  font-family:'Source Sans Pro', monospace,"Gill Sans", sans-serif;
 }
-// @for $i from 0 through 100{
-//   #test#{$i}{
-//     font-size: 30px;
-//     color: rgb(33,1.5*$i , 4*$i);
-//     text-align: center;
-//   }
-// }
-.dropBtn{
-  color: white;
-  font-size: 1.5rem;
-  position: absolute;
-  background-color: transparent;
-  border-color: white;
-  box-shadow: none;
-  padding: 20px;
-  width: 1.5em;
-  top: 40%;
-  left:5%;
-}
-.dropBtn.change{
-  left: 90%;
- }
- .Cover{
-   z-index: 3;
-   color: rgb(179, 179, 179);
-   background-color: rgb(0, 0, 0);
-   position: absolute;
-   width: 100vw;
-  
- }
- .main{
-   text-align: center;
-   z-index: 2;
-   height: 100vh;
-   border-style: solid;
-   margin: auto;
-   width: 50%;
-   border: 3px none rgb(148, 144, 144);
-   top: 18vh;
-   position: relative;
-   line-height: 1.8rem;
- }
- #sign{
-   width: 15rem;
-   position: relative;
-   margin: 0px;
- }
-.rainBtn{
-  border-top: 3px solid $pColor;
-  border-bottom: 3px solid $pColor;
-  border-left: none;
-  border-right: none;
-  background-color: transparent;
-  color: $pColor;
-  width: 10vw;
-  margin: 30px;
-  position: relative;
-  font-size: 1.5rem;
-  padding-top: 1.2rem;
-  padding-bottom: 1.2rem;
-  box-shadow: none;
-  transition: 1s;
-  
-}
-.rainBtn:hover{
-
-  background-color: white;
-  font-size: 2rem;
-  
-
-}
-.mainUI{
-  color:white;
-  text-align: center;
+.App{
+  width: 90vw;
   margin: auto;
+  margin-bottom: -20px;
+  padding-bottom: 20px;
+  padding: 1.25rem 1rem;
 }
-#bot_text{
-  position: absolute;
-  bottom: 1%;
-  width: 100vw;
+.container{
+  margin-top: 3rem;
 }
-#top_text{
-  position: absolute;
-  top: 3%;
-  width: 100vw;
+.footer{
+  position: fixed;
+  margin-bottom: 0;
+  height: 30px;
+  width: 100%;
+  color: gray;
+  bottom: 2vh;
+  left: 45vw;
 }
-#bot_text a {
-  color: white;
+@font-face{
+  font-family: "LBS";
+  src :url(./styles/fonts/LM.otf)format('truetype');
 }
-
-
-
-
-
-
+@font-face{
+  font-family: "LM";
+  src :url(./styles/fonts/LM.otf)format('opentype');
+}

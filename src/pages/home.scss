@@ -1,0 +1,27 @@
+.bio_main{
+width: 30vw;
+color: rgb(44, 44, 44);
+}
+.bio_content{
+    font-size:1.4rem;
+    line-height: 2.5rem;
+    height:65vh;
+}
+.bio_title{
+    font-family: "LBS";
+    font-size:8rem;
+    line-height: 5rem;
+    margin-top: 3vh;
+    margin-bottom: 6vh;
+    font-weight: 300;
+    letter-spacing: 1.5rem;
+}
+.half_area{
+    position: absolute;
+    background-color: rgb(44, 44, 44);
+    width: 50vw;
+    z-index: -1;
+    height: 100vh;
+    top:0vh;
+    left:50vw;
+}
