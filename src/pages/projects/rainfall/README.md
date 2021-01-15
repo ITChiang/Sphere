@@ -1,7 +1,7 @@
 # RainFall  
 
 ![image](
-       ./picture/rainfall/img_01.png
+       ./public/picture/rainfall/img_01.png
       )
 
 ## About 

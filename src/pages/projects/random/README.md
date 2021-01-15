@@ -2,7 +2,7 @@
 [Try Here](https://itchiang.github.io/Index/Random/)
 
 ![image](
-       ./picture/random/img_01.png
+       ./public/picture/random/img_01.png
       )
 
 This web page is an interactive graphics design implement by Html and Javascript. 

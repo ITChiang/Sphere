@@ -61,14 +61,16 @@ $header-text-color:black;
 
 }
 .links_inactive{
-    margin-left:60vw;
+    position: absolute;
+    left: 80vw;
     font-size: 1.6rem;
     margin-top: 1vh;
     display: flex;
     flex-direction: row;
 }
 .links_active{
-    margin-left:60vw;
+    position: absolute;
+    left: 80vw;
     font-size: 1.6rem;
     margin-top: 1vh;
     display: flex;
