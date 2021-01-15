@@ -1,11 +1,11 @@
 # FamCare  
 
 ![image](
-       ./picture/famcare/img_01.png
+       ./public/picture/famcare/img_01.png
       )
 
 ![image](
-       ./picture/famcare/img_02.png
+       ./public/picture/famcare/img_02.png
       )
 ![image](
        ./picture/famcare/img_03.png
