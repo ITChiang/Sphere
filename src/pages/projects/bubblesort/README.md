@@ -3,10 +3,10 @@
 
 
 ![image](
-       ./public/picture/bubblesort/img_05.png
+       ./public/picture/bbs/img_05.png
        )
 ![image](
-       ./public/picture/random/img_01.png
+       ./public/picture/random/img_02.png
       )
 
 
