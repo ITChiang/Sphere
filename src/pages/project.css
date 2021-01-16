@@ -38,12 +38,26 @@
 .project_Detail a {
   text-decoration: none;
   font-weight: bolder;
-  color: #494949;
+  color: #2c2c2c;
 }
 
 .project_Detail a:hover {
   text-decoration: none;
   font-weight: bolder;
   color: #aaaaaa;
+}
+
+.project_Detail blockquote p::before {
+  font-size: 1.2rem;
+  color: #272727;
+  font-weight: bold;
+  content: "* ";
+}
+
+.project_Detail blockquote p {
+  font-size: 1.2rem;
+  color: #272727;
+  font-weight: bold;
+  content: "* ";
 }
 /*# sourceMappingURL=project.css.map */

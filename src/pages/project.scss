@@ -35,10 +35,23 @@
 .project_Detail a{
     text-decoration:none;
     font-weight: bolder;
-    color: rgb(73, 73, 73);
+    color: rgb(44, 44, 44);
 }
 .project_Detail a:hover{
     text-decoration:none;
     font-weight: bolder;
     color: rgb(170, 170, 170);
 }
+.project_Detail blockquote p::before{
+    font-size: 1.2rem;
+    color: rgb(39, 39, 39);
+    font-weight: bold;
+    content: "* ";
+}
+.project_Detail blockquote p{
+    font-size: 1.2rem;
+    color: rgb(39, 39, 39);
+    font-weight: bold;
+    content: "* ";
+}
+

@@ -5,7 +5,7 @@ import "./App.css";
 import Home from './pages/home';
 import Projects from './pages/projects';
 import Project from './pages/project';
-import About from './pages/about';
+import Game from './pages/game';
 import Intro from './pages/intro';
 import Header from './components/header';
 
@@ -28,7 +28,7 @@ class App extends Component {
         <div className="container">
          <Route exact path="/" component = {()=><Intro></Intro>}/>
           <Route exact path="/home" component = {()=><Home></Home>}/>
-          <Route exact path="/about" component = {()=><About></About>}/>
+          <Route exact path="/game" component = {()=><Game></Game>}/>
           <Route exact path="/projects" component = {()=><Projects></Projects>}/>
           <Route exact path="/project" component = {()=><Project></Project>}/>
           </div>

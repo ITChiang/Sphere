@@ -2,7 +2,7 @@ import img from '../img_01.png';
 
 export default {
 	title: 'RainFall',
-	category:['react.js','three.js','Javascript','heroku'],
+	category:['React.js','Three.js','Javascript','Heroku'],
 	content: `This web page is an interactive graphics design implement by React and Three.js `,
 	links: [
 		{

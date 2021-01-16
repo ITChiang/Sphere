@@ -36,7 +36,7 @@ const Header = () => {
         <div className={`${useLocation().pathname==="/"?"links_active":"links_inactive"}`}>
             <Link className={`${useLocation().pathname==="/home"?"header_link_active":"header_link_inactive"}`} to="/home">Home</Link>
             <Link className={`${useLocation().pathname==="/projects"?"header_link_active":"header_link_inactive"}`} to="/projects">Projects</Link>
-            <Link className={`${useLocation().pathname==="/about"?"header_link_active":"header_link_inactive"}`} to="/about">About</Link>
+            <Link className={`${useLocation().pathname==="/about"?"header_link_active":"header_link_inactive"}`} to="/game">Games</Link>
             <a className="header_link_inactive" target="_blank" href="https://drive.google.com/file/d/1US4BngRlP46z3wOFUxALln3-9uyWEBQr/view?usp=sharing">CV</a>
         </div>
         </div>
