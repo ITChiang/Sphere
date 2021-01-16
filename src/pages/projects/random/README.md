@@ -4,6 +4,9 @@
 ![image](
        ./public/picture/random/img_01.png
       )
+![image](
+       ./public/picture/bubblesort/img_05.png
+       )
 
 This web page is an interactive graphics design implement by Html and Javascript. 
 

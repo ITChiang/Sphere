@@ -4,6 +4,9 @@
 
 ![image](
        ./public/picture/bubblesort/img_05.png
+       )
+![image](
+       ./public/picture/random/img_01.png
       )
 
 
@@ -26,6 +29,9 @@ A Pittsburgh local bubble tea delivery website that can help users find nearby b
 
 ![image](
       ./public/picture/bubblesort/img_03.png
+      )
+![image](
+       ./public/picture/random/img_01.png
       )
 >>> Customer delivering page
 
