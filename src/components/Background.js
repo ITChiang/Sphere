@@ -242,7 +242,7 @@ function keyPress(e) {
             isTransform = true
     }
     if (keyCode == 66 || keyCode == 98) {
-        Sound();
+       // Sound();
     }
     if (keyCode == 67 || keyCode == 99) {
         ShowAllEffect();
