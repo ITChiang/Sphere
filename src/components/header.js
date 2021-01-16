@@ -30,7 +30,6 @@ const Header = () => {
         <div className="icon_area">
             <img className = "icon"src={icon}></img>
             <Link className="title" to="/home">I-Tung Chiang</Link>
-            <img className = "sign"src={sign}></img>
         </div>
         <div className = {`${useLocation().pathname==="/home"||useLocation().pathname==="/"?"links_at_home":null}`}>
         <div className={`${useLocation().pathname==="/"?"links_active":"links_inactive"}`}>
