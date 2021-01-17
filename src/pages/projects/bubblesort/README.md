@@ -5,9 +5,6 @@
 ![image](
        ./public/picture/bbs/img_05.png
        )
-![image](
-       ./public/picture/random/img_02.png
-      )
 
 
 ## Introduction 
@@ -22,29 +19,29 @@ A Pittsburgh local bubble tea delivery website that can help users find nearby b
 
 
 ![image](
-      ./public/picture/bubblesort/img_01.png
+      ./public/picture/bbs/img_01.png
       )
 
 >>> Menu page
 
 ![image](
-      ./public/picture/bubblesort/img_03.png
+      ./public/picture/bbs/img_03.png
       )
 ![image](
-       ./public/picture/random/img_01.png
+       ./public/picture/bbs/img_01.png
       )
 >>> Customer delivering page
 
 We used React as our front-end framework since React is one of the popular frameworks now, and we want to explore new technology in this project. We choose Django REST framework for back-end, we learned Django in the course, and we think it will be less workload for us. We communicate front-end to back-end using Axios, which is Javascript library support sending XMLHttpRequests and making HTTP requests. For deployments, we select Heroku as our platform. Heroku is good for small projects and easy for deployment. It requires less maintenance and provides a steady connection.  
 
 ![image](
-       ./public/picture/bubblesort/img_06.png
+       ./public/picture/bbs/img_06.png
       )
 
 >>> Backstage page
 
 ![image](
-       ./public/picture/bubblesort/img_07.png
+       ./public/picture/bbs/img_07.png
       )
 >>> Backstage page
 ## Cooperation 
