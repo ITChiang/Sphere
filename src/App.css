@@ -1,15 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap");
 body {
-  background-color: #ffffff;
-  font-family: 'Source Sans Pro', monospace,"Gill Sans", sans-serif;
-}
-
-.App {
-  width: 90vw;
-  margin: auto;
-  margin-bottom: -20px;
-  padding-bottom: 20px;
-  padding: 1.25rem 1rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(black), to(white));
+  background: linear-gradient(black, white);
+  font-family: monospace,"Gill Sans", sans-serif;
+  overflow: hidden;
 }
 
 .container {
@@ -26,13 +20,84 @@ body {
   left: 45vw;
 }
 
-@font-face {
-  font-family: "LBS";
-  src: url(./styles/fonts/LM.otf) format("truetype");
+.Cover {
+  z-index: 99999;
+  color: #b3b3b3;
+  background-color: black;
+  position: absolute;
+  width: 100vw;
 }
 
-@font-face {
-  font-family: "LM";
-  src: url(./styles/fonts/LM.otf) format("opentype");
+.main {
+  text-align: center;
+  z-index: 2;
+  height: 100vh;
+  border-style: solid;
+  margin: auto;
+  width: 50%;
+  border: 3px none #949090;
+  top: 18vh;
+  position: relative;
+  line-height: 1.8rem;
+}
+
+#sign {
+  width: 10rem;
+  position: relative;
+  margin: 0px;
+}
+
+.rainBtn {
+  border-top: 3px solid #193975;
+  border-bottom: 3px solid #193975;
+  border-left: none;
+  border-right: none;
+  background-color: transparent;
+  color: #193975;
+  width: 10vw;
+  margin: 30px;
+  position: relative;
+  font-size: 1.5rem;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.rainBtn:hover {
+  background-color: white;
+  font-size: 2rem;
+}
+
+.mainUI {
+  color: white;
+  text-align: center;
+  margin: auto;
+}
+
+#bot_text {
+  position: absolute;
+  bottom: 1%;
+  width: 100vw;
+}
+
+#top_text {
+  position: absolute;
+  top: 3%;
+  width: 100vw;
+}
+
+#bot_text a {
+  color: white;
+}
+
+.Coverbackground {
+  margin-left: -5vw;
+  padding-top: 20vh;
+  height: 110vh;
+  width: 110vw;
+  background-color: black;
 }
 /*# sourceMappingURL=App.css.map */

@@ -1,0 +1,56 @@
+.main {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.range {
+  position: absolute;
+  margin-top: 40vh;
+  margin-left: 5vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.btn {
+  position: absolute;
+  margin-top: 35vh;
+  margin-left: 5vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.range_slider {
+  margin: 40px;
+  width: 15vh;
+  background: white;
+  height: 3px;
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+.range_slider::-webkit-slider-thumb {
+  background: white;
+  -webkit-appearance: none;
+  width: 1vh;
+  height: 1vh;
+  background: #ffffff;
+  cursor: pointer;
+}
+/*# sourceMappingURL=Canvas3D.css.map */

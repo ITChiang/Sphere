@@ -1,0 +1,15 @@
+.playbtn {
+  position: absolute;
+  top: 90vh;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 5vw;
+  height: 3vh;
+}
+
+.test {
+  position: absolute;
+  z-index: -1;
+}
+/*# sourceMappingURL=Canvas.css.map */

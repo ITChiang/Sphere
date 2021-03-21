@@ -14,6 +14,7 @@
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.12.9",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
     "@babel/preset-env": "^7.12.7",
     "@babel/preset-react": "^7.12.7",
     "babel": "^6.23.0",
@@ -33,6 +34,7 @@
     "@material-ui/core": "^4.11.2",
     "axios": "^0.21.1",
     "express": "^4.17.1",
+    "p5": "^0.9.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-favicon": "0.0.18",
@@ -42,7 +44,7 @@
     "react-router-dom": "^5.2.0",
     "react-scrollmagic": "^2.2.0",
     "remark-loader": "^2.0.0",
-    "three": "^0.124.0",
+    "three": "^0.126.1",
     "tone": "^14.7.58",
     "webpack": "^5.10.0",
     "word-list-json": "^0.2.0"

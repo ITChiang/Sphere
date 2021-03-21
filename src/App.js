@@ -1,13 +1,8 @@
 import React, { Component, useState, useRef } from "react";
 import { hot } from "react-hot-loader";
-import { HashRouter as Router, Route, Redirect, Switch } from "react-router-dom";
 import "./App.css";
-import Home from './pages/home';
-import Projects from './pages/projects';
-import Project from './pages/project';
-import Game from './pages/game';
-import Intro from './pages/intro';
-import Header from './components/header';
+import Visualizer from "./Vis";
+import Cover from './components/Cover';
 
 class App extends Component {
   constructor(props) {
@@ -23,17 +18,18 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Router >
-        <Header/>
-        <div className="container">
-         <Route exact path="/" component = {()=><Intro></Intro>}/>
-          <Route exact path="/home" component = {()=><Home></Home>}/>
-          <Route exact path="/game" component = {()=><Game></Game>}/>
-          <Route exact path="/projects" component = {()=><Projects></Projects>}/>
-          <Route exact path="/project" component = {()=><Project></Project>}/>
-          </div>
-        </Router>
-        <div className ="footer">Made by I-Tung Chaing, 2021</div>
+              <Cover
+          title = "Sphere"
+          line1 = "Audio visualize with Three.js"
+          line2 = "with a little bit of randomness"
+          line3 = "Enjoy"
+          line4 = "..."
+          playBtn = "🌏"
+          subLine1 = "Song: Janji - Heroes Tonight [NCS Release] provided by NoCopyrightSounds"
+          subLine2 = "Song: Eric - Lovely provided by Eric Godlow Beats"
+          subLine3 = "Song: SeriouzBeats - Next Level provided by Rujay"
+          />
+        <Visualizer />
       </div>
     );
   }
