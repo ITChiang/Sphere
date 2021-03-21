@@ -39,6 +39,7 @@ body {
   top: 18vh;
   position: relative;
   line-height: 1.8rem;
+  color: white;
 }
 
 #sign {
@@ -94,8 +95,9 @@ body {
 }
 
 .Coverbackground {
+  position: absolute;
+  z-index: 999;
   margin-left: -5vw;
-  padding-top: 20vh;
   height: 110vh;
   width: 110vw;
   background-color: black;

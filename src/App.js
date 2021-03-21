@@ -1,8 +1,8 @@
 import React, { Component, useState, useRef } from "react";
 import { hot } from "react-hot-loader";
-import "./App.css";
+import Style4  from "./App.css";
 import Visualizer from "./Vis";
-import Cover from './components/Cover';
+import Cover from './Cover';
 
 class App extends Component {
   constructor(props) {
@@ -17,7 +17,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
+      <div className={Style4.App}>
               <Cover
           title = "Sphere"
           line1 = "Audio visualize with Three.js"
@@ -37,4 +37,4 @@ class App extends Component {
 }
 
 
-export default hot(module)(App);
+export default App;

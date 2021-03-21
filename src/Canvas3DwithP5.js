@@ -46,7 +46,7 @@ var colorValue = 6;
 
 
 const Canvas3DwithP5 = (props) => {
-
+    console.log(Styles2);
     let setUp = () => {
         sound = myP5.loadSound(s2);
         fft = new p5.FFT(0.7, 256);

@@ -2,7 +2,7 @@
 body{
   background: linear-gradient(rgb(0, 0, 0), rgb(255, 255, 255));
   font-family: monospace,"Gill Sans", sans-serif;
-  overflow: hidden;
+   overflow: hidden;
 }
 
 .container{
@@ -37,6 +37,7 @@ body{
   top: 18vh;
   position: relative;
   line-height: 1.8rem;
+  color: white;
 }
 
 #sign {
@@ -91,8 +92,9 @@ body{
   color: white;
 }
 .Coverbackground{
+  position: absolute;
+  z-index: 999;
   margin-left: -5vw;
-  padding-top: 20vh;
   height: 110vh;
   width: 110vw;
   background-color: rgb(0, 0, 0);
