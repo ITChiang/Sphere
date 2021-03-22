@@ -28,10 +28,10 @@ const Cover = (props) => {
         <div>{props.subLine3} </div>
       <p id={Styles3.p2}>Made by</p>
       <img id={Styles3.sign} src={sign} />
-      <p id={Styles3.p2}>I-Tung Chiang</p>
+      <a id="link" href="https://www.itungchiang.com">I-Tung Chiang</a>
     </div>
   </div>
   </div>:null}</div>)
   }
 
-  export default Cover;
+  export default hot(module)(Cover);

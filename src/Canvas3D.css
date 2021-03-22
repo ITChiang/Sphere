@@ -11,8 +11,8 @@
 
 .range {
   position: absolute;
-  margin-top: 40vh;
-  margin-left: 5vw;
+  margin-top: 45vh;
+  margin-left: 4vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -36,7 +36,7 @@
 }
 
 .range_slider {
-  margin: 40px;
+  margin: 60px;
   width: 15vh;
   background: white;
   height: 3px;

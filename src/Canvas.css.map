@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,QAAQ,CAAA;EACJ,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAG,IAAI;EACV,IAAI,EAAE,CAAC;EACP,KAAK,EAAE,CAAC;EACR,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,GAAG;CACd;;AACD,AAAA,KAAK,CAAA;EACD,QAAQ,EAAC,QAAQ;EACjB,OAAO,EAAE,EAAE;CACd",
-    "sources": [
-        "Canvas.scss"
-    ],
-    "names": [],
-    "file": "Canvas.css"
-}

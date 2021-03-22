@@ -20,14 +20,14 @@ class App extends Component {
       <div className={Style4.App}>
               <Cover
           title = "Sphere"
-          line1 = "Audio visualize with Three.js"
+          line1 = "Audio visualize with Three.js and P5.js"
           line2 = "with a little bit of randomness"
-          line3 = "Enjoy"
+          line3 = "Enjoy the beauty of sound"
           line4 = "..."
           playBtn = "🌏"
-          subLine1 = "Song: Janji - Heroes Tonight [NCS Release] provided by NoCopyrightSounds"
-          subLine2 = "Song: Eric - Lovely provided by Eric Godlow Beats"
-          subLine3 = "Song: SeriouzBeats - Next Level provided by Rujay"
+          subLine1 = "First, upload any audio by click the cloud"
+          subLine2 = "Use mouse and wheel to explore"
+          subLine3 = "No hints for slider and button, just try it yourself!"
           />
         <Visualizer />
       </div>

@@ -39,11 +39,18 @@ body{
   line-height: 1.8rem;
   color: white;
 }
-
+a{
+  color: white;
+  display: block;
+}
+a:visited{
+  color: white;
+  display: block;
+}
 #sign {
   width: 10rem;
   position: relative;
-  margin: 0px;
+  margin: auto;
 }
 
 .rainBtn {
@@ -76,21 +83,7 @@ body{
   margin: auto;
 }
 
-#bot_text {
-  position: absolute;
-  bottom: 1%;
-  width: 100vw;
-}
 
-#top_text {
-  position: absolute;
-  top: 3%;
-  width: 100vw;
-}
-
-#bot_text a {
-  color: white;
-}
 .Coverbackground{
   position: absolute;
   z-index: 999;
