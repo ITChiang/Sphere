@@ -2,13 +2,13 @@
 [Try Here](https://spherereact.herokuapp.com/)
 
 ![image](
-       src/assets/screenshot.png
+       src/assets/screenshot.PNG
       )
 
-Interactive 3D audio visualizes web page implement by React, Three.js, and p5.js.
 
 ## About the Project 👀
 
+Interactive 3D audio visualizes web page implement by React, Three.js, and p5.js.
 Cube + sound + randomness = this.
 Don't think too much, just play with it.
 
